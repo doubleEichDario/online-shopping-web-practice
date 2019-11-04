@@ -1,0 +1,139 @@
+/* FORMS */
+
+label+input, label+textarea, label+select {
+  display: block;
+}
+
+.form-container {
+  position: relative;
+  background-color: #fff;
+  width: 32%;
+  height: 50%;
+  margin: 6.25% auto;
+  padding-bottom: 50px;
+  padding-top: 1px;
+}
+
+.form-container .registration-form {
+  position: relative;
+  width: 80%;
+  min-height: 350px;
+  margin: 12% auto 12% auto;
+}
+
+.form-container .registration-form p {
+  line-height: normal;
+  font-size: 0.85em;
+}
+
+.form-container .registration-form span a {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.form-container .registration-form form {
+  padding-top: 90px;
+}
+
+.form-container .registration-form input[type='checkbox']::after {
+  padding-inline-start: 20px;
+  content: " Recuérdame";
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-container hr {
+  width: 25%;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+}
+
+.search {
+  display: inline;
+  line-height: 3 !important;
+  width: 85% !important;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 0.5em 0 0 0.5em !important;
+}
+
+
+.form-block {
+  display: block;
+  width: 100%;
+  line-height: 1.8em;
+}
+
+.form-element {
+  text-indent: 5px;
+  border: 1px solid #b2b2b2;
+  width: 100%;
+  min-height: 2.5em;
+  border-radius: 2px;
+}
+
+.form-element+.form-element {
+  margin-top: 20px;
+}
+
+.registration-form {
+  display: block;
+  width: 100%;
+  line-height: 1.8em;
+}
+
+.registration-form label {
+  display: inherit;
+  font-size: small;
+  margin-top: 0.5em;
+}
+
+.registration-form label:first-child {
+  clear: left;
+}
+
+.registration-form input:not([type='submit']):not([type='checkbox']) {
+  border: 1px solid #b2b2b2;
+  width: 100%;
+  line-height: 2.2em;
+  border-radius: 2px;
+}
+
+.forgotten-pass {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  font-size: 0.8em !important;
+  color: blue !important;
+}
+
+.registration-form a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.search-box .form-input {
+  font-family: 'Noto-Sans', sans-serif;
+  text-indent: 32px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.search-box i[class*='icon-'] {
+  position: absolute;
+  color: var(--yellow-bnd);
+  font-size: larger;
+  left: 9px;
+  top: 10px;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Montserrat';
+  color: #666;
+}
+
+.search-box {
+  position: relative;
+  min-height: 2.5em;
+  margin-bottom: 15px;
+}

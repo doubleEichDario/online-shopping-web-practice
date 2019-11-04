@@ -1,0 +1,89 @@
+/* BUTTON TYPE PROPERTIES */
+
+input[type='button'], input[type='submit'], a[role="button"],
+button {
+  -webkit-appearance: none !important;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 1px solid #c0c0c0;
+  border-radius: 0.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+input[type='button']:active, input[type='submit']:active, a[role="button"]:active,
+button:active {
+  transform: translateY(2px);
+}
+
+.black, .button-black {
+  background-color: #000;
+  color: #fff;
+}
+
+[class~='black']:hover, [class~='primary']:hover, [class~='warning']:hover {
+  opacity: 0.8;
+}
+
+/* BUTTON COLORS */
+
+.primary {
+  background: linear-gradient(0deg, #e7e9ec, #fff);
+  color: #000;
+}
+
+.featured {
+  background: linear-gradient(0deg, var(--orange), var(--featured));
+  border: #000;
+  color: #000;
+}
+
+.warning {
+  color: #fff;
+  background: linear-gradient(0deg, var(--logo-red), red);
+}
+
+/* Button sizes */
+.small {
+  height: 2.7em;
+  width: 6.4em;
+  padding-top: 3px;
+  font-size: 0.7em;
+}
+
+.medium {
+  height: 3.1em;
+  width: 13em;
+  padding-top: 11px;
+  font-size: 0.9em !important;
+}
+
+input[type='submit'].medium, input[type='submit'].full-width-button {
+  padding-top: 0 !important;
+}
+
+.large {
+  height: 4.1em;
+  width: 10em;
+  padding-top: 22px;
+  font-size: 1.1em;
+}
+
+.full-width-button {
+  padding-top: 7px;
+  height: 2.5em;
+  width: 100%;
+}
+
+.search-button {
+  font-weight: bolder;
+  display: inline !important;
+  width: 15%;
+  color: white;
+  height: 3.2em !important;
+  background-color: black;
+  border-radius: 0 0.5em 0.5em 0;
+  border: 1px solid #ddd !important;
+}
